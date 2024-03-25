@@ -17,6 +17,11 @@ This project is a simple web application built with Actix Web, a powerful, pragm
 
 To get started with this project, clone the repository and navigate into the project directory.
 
+To start the project run:
+```bash
+cargo run
+```
+
 ## MongoDB Integration
 
 This project uses MongoDB for persistent storage of user data, leveraging the MongoDB Rust driver for database operations within the Actix Web framework.
