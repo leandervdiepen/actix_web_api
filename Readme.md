@@ -15,7 +15,7 @@ This project is a simple web application built with Actix Web, a powerful, pragm
 
 ## Getting Started
 
-To get started with this project, clone the repository and navigate into the project directory:
+To get started with this project, clone the repository and navigate into the project directory.
 
 ## MongoDB Integration
 
@@ -33,7 +33,7 @@ The application connects to MongoDB using the `establish_connection` function de
 
 The application's state (`AppState`) includes a MongoDB `Database` instance, which is passed to route handlers to perform CRUD operations on the `users` collection.
 
-#### Example Usage
+## Example Usage
 
 - **Create User**: To add a new user, send a `POST` request to `/users` with a JSON body containing the user's details. For example:
 
@@ -56,5 +56,5 @@ curl -X PUT http://localhost:8080/users/1 -H "Content-Type: application/json" -d
 - **Delete User**: To delete a user by their ID, send a `DELETE` request to `/users/{id}`. Replace `{id}` with the actual user ID. For example:
 
 ```bash
-  curl -X DELETE http://localhost:8080/users/1
+curl -X DELETE http://localhost:8080/users/1
 ```
